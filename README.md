@@ -11,3 +11,18 @@ USB adalah standar industri yang dirancang untuk menyederhanakan koneksi perangk
 - ISA (Industry Standard Architecture):
 ISA adalah standar bus yang digunakan pada komputer IBM PC awal. Bus ini beroperasi pada frekuensi rendah (sekitar 8,33 MHz) dan memiliki jalur data selebar 8 atau 16 bit. Kelebihan ISA adalah kompatibilitasnya dengan banyak perangkat lama, tetapi kekurangannya adalah kecepatan transfer yang lebih lambat dibandingkan bus modern seperti PCI.
 Dengan kata lain, bus adalah tulang punggung jalur komunikasi di dalam komputer, yang menghubungkan seluruh bagian menjadi satu sistem kerja yang terintegrasi.
+
+Bila terlalu banyak modul atau perangkat dihubungkan pada bus maka akan terjadi penurunan kinerja, sebutkan penyebabnya?
+
+Ketika terlalu banyak modul atau perangkat dipasang di satu bus, kinerja sistem bisa turun karena beberapa alasan teknis:
+
+- Delay Propagasi Bertambah:
+Semakin banyak perangkat yang terhubung, semakin panjang waktu yang diperlukan untuk sinyal menyebar dari satu ujung bus ke ujung lainnya. Ini berarti komunikasi antar perangkat menjadi lebih lambat.
+
+- Antrian Akses Bus Memanjang:
+Bus hanya bisa digunakan satu perangkat pada satu waktu (kecuali pada sistem tertentu seperti switched bus). Jika banyak perangkat ingin menggunakan bus bersamaan, mereka harus antri. Ini memperlambat waktu respon untuk masing-masing perangkat.
+
+- Kapasitas Transfer Terbatas:
+Bus memiliki batasan jumlah data yang bisa dikirim dalam satu waktu. Jika terlalu banyak data yang harus dikirimkan dari banyak perangkat sekaligus, bus bisa "macet", sehingga kinerja sistem keseluruhan menjadi turun drastis.
+
+Solusi yang umum digunakan adalah dengan menerapkan struktur bus hierarkis, yaitu membagi sistem menjadi beberapa bus berdasarkan kecepatan dan kebutuhan bandwidth. Misalnya:
