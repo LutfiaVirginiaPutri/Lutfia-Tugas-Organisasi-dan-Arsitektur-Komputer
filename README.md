@@ -1,5 +1,6 @@
 1. Penjelasan Struktur Antar Hubungan dan Contohnya
-Struktur antar hubungan dalam sistem komputer, sering disebut sebagai bus system, merupakan jalur komunikasi utama yang menghubungkan berbagai komponen dalam komputer. Jalur ini mengatur pertukaran data, sinyal kontrol, dan alamat memori antar komponen seperti CPU, memori utama, dan perangkat input/output (I/O). Bus memungkinkan komponen yang berbeda untuk berinteraksi satu sama lain dengan cara yang terkoordinasi dan efisien. contohnya sebagai berikut:
+   
+  Struktur antar hubungan dalam sistem komputer, sering disebut sebagai bus system, merupakan jalur komunikasi utama yang menghubungkan berbagai komponen dalam komputer.        Jalur ini mengatur pertukaran data, sinyal kontrol, dan alamat memori antar komponen seperti CPU, memori utama, dan perangkat input/output (I/O). Bus memungkinkan komponen    yang berbeda untuk berinteraksi satu sama lain dengan cara yang terkoordinasi dan efisien. contohnya sebagai berikut:
 
 - PCI (Peripheral Component Interconnect):
 PCI adalah standar bus yang diperkenalkan pada awal 1990-an, yang digunakan untuk menghubungkan perangkat keras seperti kartu grafis, kartu suara, dan jaringan ke motherboard komputer. PCI memiliki kecepatan transfer data tinggi dan tidak bergantung pada prosesor tertentu, sehingga fleksibel dan cepat dalam menangani beberapa perangkat sekaligus. PCI mendukung transfer data paralel dan memiliki kecepatan yang cukup untuk zamannya.
