@@ -43,3 +43,8 @@ Jika perangkat mengirimkan data terlalu cepat dan buffer (penampung data sementa
 Bila hampir semua perangkat dalam sistem aktif bersamaan (high load), perangkat berprioritas rendah mungkin harus menunggu jauh lebih lama dibanding biasanya karena resource sudah dipakai penuh oleh prioritas lebih tinggi.
 
 Kesimpulannya, meskipun teori umum mengatakan bahwa perangkat prioritas rendah punya waktu tunggu pendek, pada kenyataannya situasi sistem sangat menentukan.
+
+SUMBER REFRENSI:
+https://tecnomasi.blogspot.com/2015/12/jawaban-organisasi-arsitektur-komputer.html
+https://123dok.com/document/zg65782q-bab-sistem-bus-organisasi-komputer.html
+https://www.questionai.com/questions-sz1AD1Tn3j/content-3-umumnya-perangkat-berprioritas-paling-rendah
