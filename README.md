@@ -1,4 +1,4 @@
-1. Penjelasan Struktur Antar Hubungan dan Contohnya
+Penjelasan Struktur Antar Hubungan dan Contohnya
    
   Struktur antar hubungan dalam sistem komputer, sering disebut sebagai bus system, merupakan jalur komunikasi utama yang menghubungkan berbagai komponen dalam komputer.        Jalur ini mengatur pertukaran data, sinyal kontrol, dan alamat memori antar komponen seperti CPU, memori utama, dan perangkat input/output (I/O). Bus memungkinkan komponen    yang berbeda untuk berinteraksi satu sama lain dengan cara yang terkoordinasi dan efisien. contohnya sebagai berikut:
 
